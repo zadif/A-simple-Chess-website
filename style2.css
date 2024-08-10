@@ -1,0 +1,191 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    zoom: 100%;
+}
+html {
+    zoom: 50%;
+}
+body{
+    background-color: #D7DEDC;
+    text-indent: 50px;
+    color: #202030;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+   
+    color:#7A3B69;
+   
+}
+li{
+   
+    display:inline-block;
+  }
+header{
+    background-color: #9A879D;
+   
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+h1{
+    font-size: 8rem;
+    text-align: center;
+    color: #654651;
+}
+h2{
+    color: #654651;
+    font-size: 5rem;
+}
+img{
+    
+    position:relative;
+    height: 1100px;
+width: 2000px;
+}
+#imagediv{
+    background-color: #CFCFCD;
+    animation: imagediv 3s ease-in  infinite alternate ;
+}
+@keyframes imagediv {
+    from{background-color:#CFCFCD ;}
+
+
+    to{
+        
+        background-color: #B5A6AB;
+    
+    }
+}
+
+li{
+    display:block;
+}
+video{
+    height: 1000px;
+    width: 1800px;
+    display: inline-block;
+}
+.box{
+    width:200px;
+    height:200px;
+    border:1px solid #4D2E39;
+    position:relative;
+   
+    top: 280px;
+    display: inline-block;
+    background-color: #CDB7BE;
+    animation: boxdiv 7s ease-in  infinite alternate ;
+}
+#vid{
+    display: flex;
+    justify-content: space-evenly;
+}
+@keyframes boxdiv {
+    from{
+        background-color: #CDB7BE;
+        rotate:0deg;
+    }
+    to{
+        background-color: #543B43;
+       rotate:360deg;
+    }
+}
+iframe{
+    height: 1100px;
+    width: 95%;
+}
+
+#comm{
+    background-color: #E3DEDF;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    
+   background-color: #AB9C9F;
+
+}
+label,input,textarea,button,#comments{
+    position: relative;
+   
+}
+input{
+    left:7%;
+}
+textarea{
+    left:0%;
+}
+label{
+    left:1%;
+}
+button{
+    left:45%;
+    bottom: 50px;
+}
+#comments{
+    color:#4D2E39;
+    left:30%;
+    top: 60px;
+    font-size: 70px;
+}
+#circle{
+    position: relative;
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+   border:40px solid #4D2E39;
+   border-top:40px solid #C299A7;
+    left:200px;
+   top:230px;
+   animation: circlediv 9s ease-in  infinite  ;
+}
+@keyframes circlediv {
+    from{
+       
+        rotate:0deg;
+    }
+    to{
+       
+       rotate:360deg;
+    }
+}
+footer{
+    height: 300px;
+    background-color: #532847;
+    color:#E4C8DC;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 50px;
+}
+#chessgame{
+    height: 60rem;
+    width:60rem;
+}
+/* @media(min-width:500px)
+{
+    body{
+        font-size: 2rem;
+    }
+    h1{
+        font-size:5rem;
+    }
+    h2{
+        font-size:4rem;
+    }
+image{
+    width:500px;
+}
+} */
+
+ .border{
+    border:1px solid transparent;
+ }
+
+ a:hover{
+    border:1px solid white;
+    border-radius: 5%;
+ }
